@@ -45,7 +45,7 @@ combinetreetable <- function() {
 
   setDT(data)
 
-  setnames(data, old = "Province/State", new = "Provance_State")
+  setnames(data, old = "Province/State", new = "Province_State")
   setnames(data, old = "Country/Region", new = "Country_Region")
 
   return(data)
